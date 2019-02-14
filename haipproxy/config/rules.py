@@ -34,7 +34,7 @@ CRAWLER_TASKS = [
             'port_key': 'port',
         },
         'interval': 5,
-        'enable': 1,
+        'enable': 0,
     },
     {
         # now we can't get proxies from it,but it required by ip181
@@ -804,4 +804,3 @@ SPEED_MAPS = {
     'weibo': SPEED_WEIBO_QUEUE,
     'zhihu': SPEED_ZHIHU_QUEUE
 }
-

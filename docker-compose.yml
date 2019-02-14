@@ -4,8 +4,6 @@ services:
     image: redis:alpine
     ports:
       - "6379:6379"
-    command: >
-      --requirepass 123456
   splash:
     image: scrapinghub/splash
     ports:
